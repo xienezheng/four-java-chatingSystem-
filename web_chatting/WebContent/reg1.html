@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+p
+{
+position:absoulute;
+top:50px;
+left:200px;
+
+}
+</style>
+<body>
+
+<p>请输入信息注册</p>
+<p>请输入姓名</p>
+<form action="reg1.jsp"method="post">
+<input type="text"name="name">
+<p>请输入密码</p>
+<input type="password"name="password1">
+<p>请再次输入密码</p>
+<input type="password"name="password2">
+<br>
+<br>
+<input type="checkbox"name="sex"value="男">男
+<input type="checkbox"name="sex"value="女">女
+<br>
+<br>
+<p>请选择城市</p>
+<select name="city"size="4"multiple>
+<option>北京</option>
+<option>上海</option>
+<option>深圳</option>
+<option>武汉</option>
+</select>
+<p>请输入备注</p>>
+<textarea name="add"cols="5"rows="5">
+</textarea>>
+<input type="submit"value="提交信息">
+</form>
+</body>
+</html>
